@@ -6,38 +6,20 @@ body, html{
     align-content: center;
     text-align:center ;
 }
-.main{
+.container{
     border: 3px black;
     margin: 10px 0;
+    align-items: center;
 }
 
 
-.select{
-    
-    border: 1px black;
-    margin:10px;
-}
-
-.bottom {
-    width: 30px;
-    height: 30px;
+.footer {
     text-align: center;
    
 
 }
+.lbtn{
+    background-color: grey;
+}
 
-.box-model{
- 
-    background-color: honeydew;
-    margin-top: 25px;
-    margin-bottom: 40px;
-    margin-left: 350px;
-    margin-right: 350px;
-    
-    padding: 50px ;
-  
-   
-}
-#item{
-    flex-direction: column;
-}
+
