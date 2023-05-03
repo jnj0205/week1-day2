@@ -11,22 +11,29 @@
 <link rel="stylesheet" href="css/main.css">
 
 <body>
-    <div class="container" >
+    <div class="box">
         <div class="select">  
-             <h2 class="sing-in">Sing In</h2>
-             <p class="form-"> Email(phone number or email)</p>  
-            <form action="info-input">
+            <h2 class="sing-in">Sing In</h2>
+            <p class="form-"> Email(phone number or email)</p>
+
+            <div class="info-input">
                 <div class="text">
-                    <input type="text" placeholder="Enter Username" name="uname" required>
+                    <input class="username-but" type="text" placeholder="Enter Username" name="uname" required>
                     <br>
-                    <input type="password" placeholder="Enter Password" name="psw" required>  
-                    <button type="submit">Login</button>
+                </div>
+                <div class="psw">
+                    <span>Forgot <a href="#">password?</a></span>
                 </div>
                     
-                <div class="container" style="background-color:#f1f1f1">
-                        <span class="psw">Forgot <a href="#">password?</a></span>
-                </div>
-            </form>
+                <div class="pswd-but">
+                    <input type="password" placeholder="Enter Password" name="psw" required>  
+                </div> 
+
+                <div class="log-but">
+                    <button  type="continue">Continue</button>
+                </div> 
+            </div>
+
             <hr>
              <br>   
             <button type="button" class="lbtn">Create Amazon account</button>

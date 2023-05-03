@@ -1,25 +1,50 @@
 body, html{
-    background-color: almond;
-    height: 100%;
-    margin: 0px;
-    font-size: 100%;
-    align-content: center;
-    text-align:center ;
-}
-.container{
-    border: 3px black;
-    margin: 10px 0;
+    padding: 10px 10px 10px 10px;
+    margin-left: 100px;
+    margin-right: 100px;
     align-items: center;
+
 }
-
-
-.footer {
+.box{
+    border: 3px black;
+    padding: 25px 50px 75px 100px;
+    align-items: center;
     text-align: center;
    
-
+   
 }
+.select{
+padding-top: 2px;
+}
+.info-input{
+    padding-top: 2px;
+}
+.text{
+    border-radius: 1px;
+    padding-top: 2px;
+    
+   
+}
+
 .lbtn{
     background-color: grey;
+    padding-top: 2px;
 }
+.log-but{
+    border-radius: 15px;
+    
+    font-size: 25px;
+}  
+.pswd-but{
+    margin: 4px 2px;
+    border-radius: 15px;
+    padding-top: 15px 32px;
+}
+.psw{
+    margin: 4px 2px;
+    border-radius: 15px;
+    padding-top: 15px 32px;
+}
+
 
 
